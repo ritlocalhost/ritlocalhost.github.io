@@ -79,6 +79,14 @@ body {
     opacity: 1
 }
 
+.fa {
+    color: #2f4956
+}
+
+.fa:hover {
+    color: #607b88
+}
+
 @media all and (max-width:1000px) {
     #currentTalk {
         margin-top: 1.5em;
