@@ -4,7 +4,7 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-	font-family: Roboto,sans-serif;
+	font-family: Roboto, sans-serif;
 }
 
 html, body {
@@ -45,7 +45,7 @@ body {
 	border-radius: 2rem;
 	border-width: 0.125rem;
 	border-style: solid;
-	font-family: 'Roboto Condensed';
+	font-family: 'Roboto Condensed', Roboto, sans-serif;
 	font-weight: bold;
 	font-size: 2rem;
 }
