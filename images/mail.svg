@@ -1,0 +1,10 @@
+<?xml version="1.0" standalone="no"?>
+<!-- Generator: Gravit.io -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="isolation:isolate" viewBox="0 0 64 64"
+    width="64" height="64">
+	<g id="null">
+		<path d=" M 45.333 18.667 L 18.667 18.667 C 16.833 18.667 15.35 20.167 15.35 22 L 15.333 42 C 15.333 43.833 16.833 45.333 18.667 45.333 L 45.333 45.333 C 47.167 45.333 48.667 43.833 48.667 42 L 48.667 22 C 48.667 20.167 47.167 18.667 45.333 18.667 Z  M 45.333 25.333 L 32 33.667 L 18.667 25.333 L 18.667 22 L 32 30.333 L 45.333 22 L 45.333 25.333 Z "
+		    fill="rgb(255,255,255)" />
+		<path d=" M 12 12 L 52 12 L 52 52 L 12 52 L 12 12 Z " fill="none" />
+	</g>
+</svg>

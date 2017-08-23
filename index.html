@@ -1,63 +1,118 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Localhost</title>
-	<meta name="charset" content="UFT-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1" />
 
-	<link rel="stylesheet" type="text/css" href="./index.css" />
-	<link rel="icon" href="./icon.png" />
-	<script src="./index.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+	<link rel="stylesheet" href="index.css">
 </head>
 
 <body>
-	<header class="header">
-		<div class="logo">::1 </div>
+	<header class="page-header">
+		<span class="logo">::1</span>
 		<h1 class="title">Localhost</h1>
 	</header>
 
-	<main>
-		<article class="events">
-			<header>
-				<h2>Events</h2>
-			</header>
+	<section>
+		<h2>Events</h2>
 
-			<div class="event">
-				<div class="date">
-					<div class="weekday">Sun</div>
-					<div class="day">1</div>
-					<div class="month">Jan</div>
+		<div class="panels">
+			<div class="panel">
+				<div>
+					<div>Sat</div>
+					<div class="event-date">26</div>
+					<div>Aug</div>
 				</div>
 
-				<div class="details">
-					<span class="location">GOL 3445</span>
-					<span class="time">12:00 PM</span>
+				<div>
+					<span class="event-time">8PM</span>
+					<span class="event-place">...</span>
+					<h3>Start of the year event</h3>
+					<div>
+						Meet us at ... and we'll car pool to ... to celebrate the new year and welcome new members!
+					</div>
 				</div>
-
-				<div class="summary">Someone is talking and stuff</div>
-
-				<div class="description">These are some sample words written right here that you can read because I typed them and they are just filling space.</div>
 			</div>
 
-			<div class="event">
-				<div class="date">
-					<div class="weekday">Sun</div>
-					<div class="day">1</div>
-					<div class="month">Jan</div>
+			<div class="panel">
+				<div>
+					<div>Thr</div>
+					<div class="event-date">31</div>
+					<div>Aug</div>
 				</div>
 
-				<div class="details">
-					<span class="location">GOL 3445</span>
-					<span class="time">12:00 PM</span>
+				<div>
+					<span class="event-time">1PM</span>
+					<span class="event-place">GOL 3445</span>
+					<h3>Weekly meeting</h3>
+					<div>
+						Come join us for our first weekly meeting of the year! Our president, Ricky Catron, will introduce the club to new members
+						before presenting a talk on the Realtime Web: websockets and server side events.
+					</div>
 				</div>
-
-				<div class="summary">Someone is talking and stuff</div>
-
-				<div class="description">These are some sample words written right here that you can read because I typed them and they are just filling space.</div>
 			</div>
-		</article>
-	</main>
+
+			<div class="panel">
+				<div>
+					<div>Thr</div>
+					<div class="event-date">7</div>
+					<div>Sept</div>
+				</div>
+
+				<div>
+					<span class="event-time">1PM</span>
+					<span class="event-place">GOL 3445</span>
+					<h3>Weekly meeting</h3>
+					<div>
+						Our second weekly meeting will feature a talk on professional web animation by Lauren Johnston. Join us and learn how you
+						can include animation in your websites to create a memorable dynamic experience.
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section>
+		<h2>Contact</h2>
+
+		<div class="panels">
+			<a class="panel" href="https://ritlocalhost.slack.com">
+				<div>
+					<img src="images/slack.svg" alt="Slack">
+				</div>
+
+				<div>
+					Join our Slack channel for web discussions, news, and private messaging to other members and the eboard!
+				</div>
+			</a>
+
+			<a class="panel" href="http://eepurl.com/bbJY1f">
+				<div>
+					<img src="images/mail.svg" alt="Mail">
+				</div>
+
+				<div>
+					Sign up for our mailing list to get notified about upcoming meetings and club news.
+				</div>
+			</a>
+		</div>
+	</section>
+
+	<section>
+		<h2>About</h2>
+
+		<div class="about">
+			Hey there, and welcome to the RIT <span class="logo">::1</span> Localhost website! Here you'll find meeting and contact
+			information for RIT Localhost. We are a web design and development club focused on helping students share what they've
+			learned from class, co-ops, and anywhere else, so they we can all improve our work while having fun and meeting new people.
+			Any student attending RIT is welcome to join, regardless of major or year level. The things we do as a club are suitable
+			for any experience level, and everyone can learn a thing or two about developing websites and applications.
+		</div>
+	</section>
 </body>
 
 </html>
