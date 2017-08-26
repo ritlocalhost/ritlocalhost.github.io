@@ -69,10 +69,9 @@ h2 {
 }
 
 .panel {
-	flex: 1 1 25rem;
+	width: 100%;
 	display: flex;
-	margin: 0.5rem;
-	background: var(--foreground);
+	padding: 0.5rem;
 }
 
 a.panel {
@@ -92,13 +91,14 @@ a.panel:hover {
 	align-items: center;
 	justify-content: center;
 	min-height: 6rem;
-	margin-right: 0.5rem;
 	background: var(--panel);
 	color: var(--foreground);
 }
 
 .panel>:last-child {
 	padding: 0.5rem;
+	padding-left: 1rem;
+	background: var(--foreground);
 }
 
 .panel h3 {
@@ -133,9 +133,8 @@ a.panel:hover {
 }
 
 .meeting-banner {
-	margin-top: 0.5rem;
+	margin: 0.5rem;
 	padding: 1rem;
-	width: 100%;
 	text-align: center;
 	color: white;
 	background: var(--weekly);
@@ -147,4 +146,10 @@ a.panel:hover {
 
 .panel.special>:first-child {
 	background: var(--special);
+}
+
+@media screen and (min-width: 640px) {
+	.panel {
+		width: 50%;
+	}
 }
